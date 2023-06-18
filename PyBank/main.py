@@ -11,10 +11,10 @@ import csv
 # print('The current working directory is: ', current_directory)
 
 #Create file pathway to import csv
-bank_path = os.path.join('..','Pybank', 'Resources', 'budget_data.csv')
+bank_path = os.path.join("..","python-challenge","Pybank", "Resources", "budget_data.csv")
 
 #Open file in read mode
-with open(bank_path, 'r') as bank_file:
+with open(bank_path, "r") as bank_file:
     csvreader = csv.reader(bank_file, delimiter=",")
     print(csvreader)
     # create header
@@ -102,7 +102,7 @@ with open(bank_path, 'r') as bank_file:
     
     ## 6. Export answers in text file
     #create path to store the txt file in
-    store_path = os.path.join("..", "Pybank", "analysis", "analysis.txt")
+    store_path = os.path.join("..", "python-challenge" ,"Pybank", "analysis", "analysis.txt")
 
     #In csv writer, list of outputs for each line wanted in the txt file created for iteration
     with open(store_path,"w") as file:
