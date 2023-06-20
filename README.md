@@ -14,3 +14,7 @@ Module 3 challenge - Python
 -how to obtain unique values from a a list with duplicate values: https://www.digitalocean.com/community/tutorials/get-unique-values-from-a-list-in-python
 
 -how to write to a text file: https://www.pythontutorial.net/python-basics/python-write-text-file/
+
+-utilizing the seek value to reset the csvfile: AskBCS Learning Assistant Resources, utilizing the seek function to reset csv module and allow for continuous readability. 
+https://www.geeksforgeeks.org/python-seek-function/
+
